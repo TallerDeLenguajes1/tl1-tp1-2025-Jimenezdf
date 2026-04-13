@@ -36,3 +36,13 @@ Errores de sintaxis y logica:
     -faltaba ; al final de int suma
     -En la funcion void se perdia el valor duplicado y no se modificaba el original, entonces habia que hacer pasaje por referencia con punteros para llegar al valor original y reemplazarlo definitivamente
     -En return 0 faltaba el ; 
+
+## Ejercicio 4
+
+**Apartado C**
+
+Creo que no hacen falta subir los archivos .exe ya que cuando se compile el codigo van a aparecer solos en cualquier computadora
+
+**Apartado G** 
+
+El resultado de los puntos 2 y 3 del apartado E son iguales porque el puntero apunta al mismo lugar de donde esta almacenado el valor de la variable. En el punto 4 se obtiene donde esta almacenada la direccion de memoria de la variable puntero, siendo esta diferente a las anteriores. Esto es porque son variables diferentes y no se almacenan 2 variables en un mismo lugar
